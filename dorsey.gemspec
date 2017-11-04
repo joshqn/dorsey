@@ -10,14 +10,13 @@ Gem::Specification.new do |spec|
   spec.email         = ["jmkappdeveloper@gmail.com"]
 
   spec.summary       = %q{An easy way to create scaffolding to start a sinatra project}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/joshqn/dorsey"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.executables   = ["dorsey"]
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.16"

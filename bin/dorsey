@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'dorsey'
+puts "This is Dorsey"
